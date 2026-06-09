@@ -2,7 +2,7 @@
 
 ### Verify Before You Trust
 
-🔗 Live Demo: https://trust-lens-ai.onrender.com
+🔗 **Live Demo:** https://trust-lens-ai.onrender.com
 
 TrustLens AI is a full-stack forensic verification platform designed to inspect the authenticity of digital media, payment screenshots, certificates, documents, and biometric assets.
 
@@ -19,100 +19,94 @@ https://trust-lens-ai.onrender.com
 ## Features
 
 ### Media Verification
-- Screenshot authenticity analysis
-- OCR gradient inspection
-- Metadata & EXIF auditing
-- Compression anomaly detection
-- Error Level Analysis (ELA)
+
+* Screenshot authenticity analysis
+* OCR gradient inspection
+* Metadata & EXIF auditing
+* Compression anomaly detection
+* Error Level Analysis (ELA)
 
 ### Biometric Verification
-- Face consistency validation
-- Landmark mismatch detection
-- Deepfake simulation analysis
+
+* Face consistency validation
+* Landmark mismatch detection
+* Deepfake simulation analysis
 
 ### Document Verification
-- Certificate authenticity validation
-- Seal & watermark inspection
-- Embedded metadata verification
+
+* Certificate authenticity validation
+* Seal & watermark inspection
+* Embedded metadata verification
 
 ### Blockchain Proof System
-- SHA256 fingerprint generation
-- Immutable verification history
-- Ledger anchoring simulation
+
+* SHA256 fingerprint generation
+* Immutable verification history
+* Ledger anchoring simulation
 
 ### Investigation Dashboard
-- Verification history tracking
-- Threat classification
-- Audit reporting
-- Forensic workflow simulation
+
+* Verification history tracking
+* Threat classification
+* Audit reporting
+* Forensic workflow simulation
 
 ---
 
-# Screenshots
+## Verification Architecture
 
-## Dashboard
+### OCR Gradient Analysis
 
-The main verification dashboard where investigators can upload assets and review trust indicators.
+Inspects character geometry, layout alignments, and font structures to identify manipulation attempts within screenshots and documents.
 
-![Dashboard](screenshots/Screenshot-Dashboard.png)
+### Metadata & EXIF Auditing
 
----
+Examines creation timestamps, software markers, device signatures, and metadata consistency to detect suspicious modifications.
 
-## Upload & Analysis Workspace
+### Quantization & Compression Analysis
 
-Interactive upload zone used for screenshots, PDFs, certificates, and verification workflows.
+Analyzes JPEG and PNG compression artifacts to identify resaved regions and cloned content.
 
-![Upload Workspace](screenshots/Screenshot-uploadworkspace.png)
+### Error Level Analysis (ELA)
 
----
+Highlights compression inconsistencies and pixel-level modifications commonly associated with image tampering.
 
-## Document Verification Center
+### Biometric Face Consistency
 
-Certificate and document validation system featuring metadata verification and blockchain proof inspection.
+Evaluates facial landmarks, symmetry, gaze vectors, and spatial relationships to detect manipulated portraits.
 
-![Document Verification](screenshots/Screenshot-Document verification.png)
+### Decentralized Ledger Anchoring
 
----
-
-## Threat Benchmark Library
-
-Collection of fraud simulation scenarios including payment manipulation, document forgery, and biometric attacks.
-
-![Threat Benchmark](screenshots/Screenshot-ThreatBenchmark.png)
+Generates cryptographic fingerprints and verification records for immutable audit histories.
 
 ---
 
-## Verification Engine
+## Technology Stack
 
-Multi-stage forensic verification architecture demonstrating the complete inspection pipeline.
+### Frontend
 
-![Verification Engine](screenshots/Screenshot-Verification Engines.png)
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
 
----
+### Backend
 
-# Technology Stack
+* Node.js
+* Express.js
 
-## Frontend
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
+### Tools & Libraries
 
-## Backend
-- Node.js
-- Express.js
-
-## Tools & Libraries
-- jsPDF
-- Lucide React
-- ESBuild
-- Git
-- GitHub
-- Render
+* jsPDF
+* Lucide React
+* ESBuild
+* Git
+* GitHub
+* Render
 
 ---
 
-# Installation
+## Installation
 
 Clone the repository:
 
@@ -120,7 +114,7 @@ Clone the repository:
 git clone https://github.com/adybora111-art/Trust-Lens-AI.git
 ```
 
-Navigate into project:
+Navigate into the project:
 
 ```bash
 cd Trust-Lens-AI
@@ -146,53 +140,53 @@ npm run build
 
 ---
 
-# Deployment
+## Deployment
 
-Hosted on Render
+Hosted on Render.
 
-Live URL:
+**Live URL:**
 
 https://trust-lens-ai.onrender.com
 
 ---
 
-# Skills Demonstrated
+## Skills Demonstrated
 
-- Full Stack Development
-- React Architecture
-- TypeScript Development
-- UI/UX Design
-- REST API Integration
-- Node.js Development
-- Express.js Backend
-- Git & GitHub Workflow
-- Production Deployment
-- Technical Documentation
-
----
-
-# Future Improvements
-
-- AI-based forgery detection
-- OCR text extraction
-- Real blockchain integration
-- User authentication
-- Cloud storage support
-- Investigation analytics dashboard
+* Full Stack Development
+* React Architecture
+* TypeScript Development
+* Node.js Backend Development
+* Express.js API Development
+* UI/UX Design
+* Digital Forensics Concepts
+* Blockchain Verification Concepts
+* Production Deployment
+* Git & GitHub Workflow
+* Technical Documentation
 
 ---
 
-# Author
+## Future Enhancements
 
-Aditya Bora
+* AI-powered forgery detection
+* Advanced OCR extraction engine
+* Cloud storage integration
+* User authentication system
+* Real blockchain verification integration
+* Investigation analytics dashboard
+
+---
+
+## Author
+
+**Aditya Bora**
 
 B.Tech Computer Science Engineering
 
-GitHub:
-https://github.com/adybora111-art
+GitHub: https://github.com/adybora111-art
 
 ---
 
-# Live Demo
+## Live Demo
 
 🚀 https://trust-lens-ai.onrender.com
